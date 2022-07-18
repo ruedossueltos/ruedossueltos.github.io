@@ -1,0 +1,69 @@
+.item1{grid-area: header;}
+.item3{grid-area: menu;}
+.item4{grid-area: blank;}
+.item5{grid-area: carousel;}
+.item6{grid-area: banner;}
+.item7{grid-area: cta1;}
+.item8{grid-area: cta2;}
+.item9{grid-area: cta3;}
+.item10{grid-area: footer;}
+
+
+
+.container-grid{
+display: grid;
+grid-template-areas: 'header header header header header header'
+                      'menu  menu   menu  menu menu menu'
+                      'carousel carousel carousel carousel carousel carousel'
+                      'banner banner banner banner banner banner' 
+                      'cta1  cta1 cta2  cta2 cta3 cta3'
+                      'footer footer footer footer footer footer'
+                      ;
+
+
+
+
+
+
+                      
+
+background-color:white;
+grid-gap: 10px;
+padding: 10px;
+
+}
+.container-grid > div {
+background-color: rgba(255, 255, 255,0.8);
+text-align: center;
+padding: 20px 0;
+font-size: 30px;
+
+}
+
+.title{
+	size: 30px;
+}
+
+.cardmemorias{
+	font-size: 35px;
+}
+.cardcloseth{
+	font-size: 35px;
+}
+.cardreview{
+	font-size: 35px;
+}
+.item10 div{
+	align-items: center;
+}
+
+
+
+
+h1{
+
+
+font-family: "Mystery Quest", cursive;
+
+
+}
